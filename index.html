@@ -5,12 +5,50 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="https://github.com/fluidicon.png" title="GitHub">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+            crossorigin="anonymous" />
         <link rel="stylesheet" href="style.css">
         <title>Challenge ONE</title>
     </head>
 
     <body>
-        <script src="script.js"></script>
+        <section id="header">
+            <img src="./assets/Logo.png" alt="Logo Alura">
+        </section>
+
+        <main>
+            <section id="form">
+                <form action="post" id="encrypter-form">
+                    <div class="form-control">
+                        <input type="text" name="input" id="input" placeholder="Ingrese el texto aquí">
+                    </div>
+
+                    <span><i class="fas fa-exclamation-circle"></i>&nbsp;Solo letras minúsculas y sin acentos</span>
+
+                    <div class="form-actions">
+                        <button class="btn" id="encrypter">Encriptar</button>
+                        <button class="btn" id="decrypt">Desencriptar</button>
+                    </div>
+                </form>
+            </section>
+
+            <section id="result-encrypt">
+                <div class="without-result">
+                    <img src="./assets/waiting.png" alt="Persona esperando respuesta">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+
+                <div class="with-result">
+                    <p id="result"></p>
+                    <button class="btn" id="copy">Copiar</button>
+                </div>
+            </section>
+            </mai>
+
+            <script src="script.js"></script>
     </body>
 
 </html>

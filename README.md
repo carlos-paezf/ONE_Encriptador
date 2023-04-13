@@ -7,3 +7,5 @@
 - [Copia del modelo en Figma](https://www.figma.com/file/g5J8huCItJJx6zTvUvpDBv/Alura-Challenge---Desaf%C3%ADo-1---L%C3%B3gica?node-id=0%3A1&t=hCed51RtTc9gFh8A-1)
 - [Frames del modelo en PDF](./Alura%20Challenge%20-%20Desaf%C3%ADo%201%20-%20L%C3%B3gica.pdf)
 - [LIVE del proyecto en GitHub Pages](https://carlos-paezf.github.io/ONE_Encriptador/)
+
+<img src="./assets/insignia.png" alt="Insignia" style="display: inline-block; text-align: center;">

@@ -19,31 +19,26 @@
         </section>
 
         <main>
-            <section id="form">
-                <form action="post" id="encrypter-form">
-                    <div class="form-control">
-                        <input type="text" name="input" id="input" placeholder="Ingrese el texto aquí">
-                    </div>
+            <form id="form" id="encrypter-form">
+                <textarea name="input" id="input" placeholder="Ingrese el texto aquí" autocomplete="off"
+                    rows="15"></textarea>
 
-                    <span><i class="fas fa-exclamation-circle"></i>&nbsp;Solo letras minúsculas y sin acentos</span>
+                <span>
+                    <i class="fas fa-exclamation-circle"></i>&nbsp;
+                    Solo letras minúsculas y sin acentos (Se reemplazarán de manera automática)
+                </span>
 
-                    <div class="form-actions">
-                        <button class="btn" id="encrypter">Encriptar</button>
-                        <button class="btn" id="decrypt">Desencriptar</button>
-                    </div>
-                </form>
-            </section>
+                <div class="form-actions">
+                    <button class="btn" id="encrypter">Encriptar</button>
+                    <button class="btn" id="decrypt">Desencriptar</button>
+                </div>
+            </form>
 
             <section id="result-encrypt">
                 <div class="without-result">
                     <img src="./assets/waiting.png" alt="Persona esperando respuesta">
                     <h3>Ningún mensaje fue encontrado</h3>
                     <p>Ingresa el texto que desees encriptar o desencriptar</p>
-                </div>
-
-                <div class="with-result">
-                    <p id="result"></p>
-                    <button class="btn" id="copy">Copiar</button>
                 </div>
             </section>
             </mai>
